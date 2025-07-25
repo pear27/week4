@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GooseWalkingController : MonoBehaviour
 {
-    public float moveSpeed = 2f;
+    public float moveSpeed = 3f;
 
     private Rigidbody2D rb;
     private Animator animator;
