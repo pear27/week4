@@ -23,7 +23,8 @@ public class GooseWalkingController : MonoBehaviour
         rb.velocity = new Vector2(moveX * moveSpeed, rb.velocity.y);
 
         // 애니메이션 처리
-        animator.SetBool("isWalking", moveX != 0);
+        bool isWalking = Mathf.Abs(moveX) > 0.01f;
+        animator.SetBool("isWalking", isWalking);
 
         // 바라보는 방향 처리
         if (moveX != 0)
