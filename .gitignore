@@ -1,0 +1,33 @@
+# Unity 패키지 캐시 (이건 넣어야 함)
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+UserSettings/
+
+# Visual Studio 관련
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS 및 기타
+.DS_Store
+Thumbs.db
+
+# Unity Collab
+.collab/
+
+# Rider
+.idea/
+*.sln.iml
