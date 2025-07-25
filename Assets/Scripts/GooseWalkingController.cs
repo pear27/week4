@@ -3,10 +3,16 @@ using UnityEngine;
 public class GooseWalkingController : MonoBehaviour
 {
     public float moveSpeed = 3f;
+    public float jumpForce = 8f;
+    public Transform groundCheck; // ¶¥ Ã¼Å©¿ë Æ®·£½ºÆû
+    public float groundCheckRadius = 0.1f; // ¶¥ Ã¼Å© ¹Ý°æ
+    public LayerMask groundLayer; // ¶¥ ·¹ÀÌ¾î
 
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+
+    private bool isGrounded;
 
     private void Start()
     {
@@ -30,6 +36,22 @@ public class GooseWalkingController : MonoBehaviour
         if (moveX != 0)
         {
             spriteRenderer.flipX = moveX < 0; // ¿ÞÂÊÀ¸·Î °¥ ¶§ ¹ÝÀü
+        }
+
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        if(isGrounded && Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (groundCheck != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
 }
