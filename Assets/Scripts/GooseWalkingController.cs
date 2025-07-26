@@ -5,8 +5,9 @@ public class GooseWalkingController : MonoBehaviour
     public float moveSpeed = 3f;
     public float jumpForce = 18f;
     public Transform groundCheck; // 땅 체크용 트랜스폼
-    public float groundCheckRadius = 0.1f; // 땅 체크 반경
+    public float groundCheckRadius = 0.2f; // 땅 체크 반경
     public LayerMask groundLayer; // 땅 레이어
+    public LayerMask platformLayer; // 밟을 수 있는 오브젝트 레이어
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -14,6 +15,7 @@ public class GooseWalkingController : MonoBehaviour
 
     private bool isGrounded;
     private bool isHiding;
+    private bool isOnPlatform = false;
 
     private void Start()
     {
@@ -28,6 +30,10 @@ public class GooseWalkingController : MonoBehaviour
     {
         // 땅에 있는지 체크
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        // 플랫폼 위에 있는지 체크
+        isOnPlatform = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, platformLayer);
+        Debug.Log($"IsOnPlatform: {isOnPlatform}");
 
         // 숨기기 키
         isHiding = Input.GetKey(KeyCode.DownArrow);
@@ -66,5 +72,10 @@ public class GooseWalkingController : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
+    }
+
+    public bool IsOnPlatform()
+    {
+        return isOnPlatform;
     }
 }
