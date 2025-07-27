@@ -33,7 +33,6 @@ public class GooseWalkingController : MonoBehaviour
 
         // 플랫폼 위에 있는지 체크
         isOnPlatform = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, platformLayer);
-        Debug.Log($"IsOnPlatform: {isOnPlatform}");
 
         // 숨기기 키
         isHiding = Input.GetKey(KeyCode.DownArrow);

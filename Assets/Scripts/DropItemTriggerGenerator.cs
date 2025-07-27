@@ -21,7 +21,6 @@ public class DropItemTriggerGenerator : MonoBehaviour
         Transform chosenItem = items[randomIndex];
         
         CreateTrigger(chosenItem);
-        Debug.Log("Chosen Item: " + chosenItem.name);
     }
 
     void CreateTrigger(Transform item)
@@ -47,6 +46,5 @@ public class DropItemTriggerGenerator : MonoBehaviour
     {
         yield return null; // 한 프레임 대기 후 적용
         collider.size = triggerSize;
-        Debug.Log("Collider size applied after frame: " + collider.size);
     }
 }

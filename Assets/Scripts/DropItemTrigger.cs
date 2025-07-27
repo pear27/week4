@@ -13,6 +13,13 @@ public class DropItemTrigger : MonoBehaviour
             // Rigidbody2D를 Dynamic으로 바꿔서 중력 적용
             itemToDrop.bodyType = RigidbodyType2D.Dynamic;
 
+            // Collider 활성화
+            Collider2D itemCollider = itemToDrop.GetComponent<Collider2D>();
+            if (itemCollider != null)
+            {
+                itemCollider.enabled = true;
+            }
+
             itemToDrop.velocity = Vector2.zero; // 속도 초기화
             itemToDrop.angularVelocity = Random.Range(-100f, 100f); // 랜덤 회전 속도
         }
