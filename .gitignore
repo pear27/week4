@@ -8,6 +8,15 @@ Logs/
 MemoryCaptures/
 UserSettings/
 
+# Unity Editor 레이아웃 / 개인 설정
+*.swp
+*.tmp
+*.bak
+*.backup
+*.backup.json
+DocumentLayout.json
+DocumentLayout.backup.json
+
 # Visual Studio 관련
 .vscode/
 *.csproj
@@ -31,3 +40,9 @@ Thumbs.db
 # Rider
 .idea/
 *.sln.iml
+
+# Unity IDE/Editor cache files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
