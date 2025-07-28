@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 91148578}
   - component: {fileID: 91148577}
   m_Layer: 0
-  m_Name: DetectionZone(2)
+  m_Name: DetectionZone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1491,12 +1491,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147690541}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 101.76236, y: 2.3756685, z: -0.13646984}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1040109583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &159876449
 GameObject:
@@ -1681,7 +1681,7 @@ GameObject:
   - component: {fileID: 179348208}
   - component: {fileID: 179348207}
   m_Layer: 0
-  m_Name: woman
+  m_Name: woman 2
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2062,7 +2062,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4798532672243395371, guid: 838a9c74e6cba734faec44d9be3b765e, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Cauldron (1)
+      value: Cauldron (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4798532672243395373, guid: 838a9c74e6cba734faec44d9be3b765e, type: 3}
       propertyPath: m_LocalScale.x
@@ -2407,12 +2407,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320250066}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 247.4589, y: 7.179724, z: -0.11469608}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 145.69653, y: 4.8040557, z: 0.021773763}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1040109583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &321162790 stripped
 Transform:
@@ -2859,7 +2859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 365235689}
   m_Layer: 0
-  m_Name: NPC-woman
+  m_Name: NPC-woman (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2998,6 +2998,8 @@ Transform:
   - {fileID: 109291716}
   - {fileID: 2066965959}
   - {fileID: 730398580}
+  - {fileID: 1507635781}
+  - {fileID: 1702262009}
   m_Father: {fileID: 1520219273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &384639316
@@ -3098,7 +3100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3520361919269119974, guid: 83d9652edf8102948abc7e6551b4db36, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Wine Bottle (3)
+      value: Wine Bottle (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3520361919269119974, guid: 83d9652edf8102948abc7e6551b4db36, type: 3}
       propertyPath: m_Layer
@@ -3129,7 +3131,7 @@ GameObject:
   - component: {fileID: 416825304}
   - component: {fileID: 416825303}
   m_Layer: 0
-  m_Name: Wall (2)
+  m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3246,8 +3248,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428301957}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.198501, y: 4.3, z: -19.933527}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -76.61451, y: 2.6797295, z: -19.89012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3258,7 +3260,7 @@ Transform:
   - {fileID: 1450708065}
   - {fileID: 685078066}
   - {fileID: 1076748425}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1375715903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &433972804 stripped
 Transform:
@@ -3413,7 +3415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8746762391861760556, guid: 78c0f168d9274124eaeedea139301a44, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Pot 01
+      value: Pot (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3588,7 +3590,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7012872107734090152, guid: 5dad1464d7a3246408607532834aec13, type: 3}
       propertyPath: m_Name
-      value: TX Village Props - Kettle
+      value: Kettle (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7012872107734090154, guid: 5dad1464d7a3246408607532834aec13, type: 3}
       propertyPath: m_LocalScale.x
@@ -4748,7 +4750,7 @@ GameObject:
   - component: {fileID: 697971089}
   - component: {fileID: 697971088}
   m_Layer: 0
-  m_Name: DetectionZone(1)
+  m_Name: DetectionZone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4961,7 +4963,7 @@ GameObject:
   - component: {fileID: 714044703}
   - component: {fileID: 714044702}
   m_Layer: 0
-  m_Name: DetectionZone(2)
+  m_Name: DetectionZone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5088,12 +5090,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716927500}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.0867257, y: 0.061774123, z: -4.998249}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -106.84908, y: -2.3138945, z: -4.861779}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1040109583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &721154281
 GameObject:
@@ -5666,13 +5668,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781618144}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 87.341675, y: 1.7982405, z: -4.9592395}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.5286636, y: 0.17796981, z: -4.915832}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 93493071}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1375715903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &799152891
 PrefabInstance:
@@ -5732,7 +5734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5373330553216305747, guid: 5a4d983acd5452743930759213bf8190, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Obstacle Platform Large 02 (1)
+      value: Object Table
       objectReference: {fileID: 0}
     - target: {fileID: 5373330553216305747, guid: 5a4d983acd5452743930759213bf8190, type: 3}
       propertyPath: m_Layer
@@ -6411,7 +6413,7 @@ GameObject:
   - component: {fileID: 857476059}
   - component: {fileID: 857476058}
   m_Layer: 0
-  m_Name: DetectionZone(1)
+  m_Name: DetectionZone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6755,7 +6757,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7012872107734090152, guid: 5dad1464d7a3246408607532834aec13, type: 3}
       propertyPath: m_Name
-      value: TX Village Props - Kettle (1)
+      value: Kettle (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7012872107734090154, guid: 5dad1464d7a3246408607532834aec13, type: 3}
       propertyPath: m_LocalScale.x
@@ -7036,8 +7038,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976478290}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 105.05, y: 4.5764055, z: -0.09985002}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 24.236992, y: 2.9561348, z: -0.056442805}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7049,7 +7051,7 @@ Transform:
   - {fileID: 852942064}
   - {fileID: 1683261428}
   - {fileID: 1440597293}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1375715903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &994564556
 GameObject:
@@ -7138,7 +7140,7 @@ GameObject:
   - component: {fileID: 1009183049}
   - component: {fileID: 1009183048}
   m_Layer: 6
-  m_Name: Square
+  m_Name: GroundCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7314,7 +7316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3520361919269119974, guid: 83d9652edf8102948abc7e6551b4db36, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Wine Bottle (2)
+      value: Wine Bottle (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3520361919269119974, guid: 83d9652edf8102948abc7e6551b4db36, type: 3}
       propertyPath: m_Layer
@@ -7416,6 +7418,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1040109582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1040109583}
+  m_Layer: 0
+  m_Name: TriggerGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1040109583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040109582}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 101.76236, y: 2.3756685, z: -0.13646984}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1335298464}
+  - {fileID: 716927502}
+  - {fileID: 1547554768}
+  - {fileID: 147690543}
+  - {fileID: 320250068}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1041261287 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8746762391861760556, guid: 78c0f168d9274124eaeedea139301a44, type: 3}
@@ -7451,7 +7489,7 @@ GameObject:
   - component: {fileID: 1051148726}
   - component: {fileID: 1051148727}
   m_Layer: 0
-  m_Name: DetectionZone(2)
+  m_Name: DetectionZone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8541,7 +8579,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4798532672243395371, guid: 838a9c74e6cba734faec44d9be3b765e, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Cauldron
+      value: Cauldron (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4798532672243395373, guid: 838a9c74e6cba734faec44d9be3b765e, type: 3}
       propertyPath: m_LocalScale.x
@@ -9162,7 +9200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5373330553216305747, guid: 5a4d983acd5452743930759213bf8190, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Obstacle Platform Large 02
+      value: Start Table
       objectReference: {fileID: 0}
     - target: {fileID: 5373330553216305747, guid: 5a4d983acd5452743930759213bf8190, type: 3}
       propertyPath: m_Layer
@@ -9183,7 +9221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248180657}
   m_Layer: 0
-  m_Name: Right Point (woman)
+  m_Name: Right Point (woman 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9228,8 +9266,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270135509}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 247.4589, y: 7.179724, z: -0.11469608}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 166.64587, y: 5.5594535, z: -0.07128886}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9241,7 +9279,7 @@ Transform:
   - {fileID: 829045796}
   - {fileID: 53740333}
   - {fileID: 350420475}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1375715903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1271769602
 GameObject:
@@ -10357,12 +10395,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335298462}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 80.81301, y: 1.6202707, z: -0.043407217}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -20.949348, y: -0.7553978, z: 0.093062624}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1040109583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1358836973
 GameObject:
@@ -10533,7 +10571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1369912593}
   m_Layer: 0
-  m_Name: Left Point (woman)
+  m_Name: Left Point (woman 1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10553,6 +10591,43 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 365235689}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1375715902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1375715903}
+  m_Layer: 0
+  m_Name: Falling Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1375715903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375715902}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 80.81301, y: 1.6202707, z: -0.043407217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2010256562}
+  - {fileID: 781618145}
+  - {fileID: 1696905226}
+  - {fileID: 428301958}
+  - {fileID: 1270135510}
+  - {fileID: 976478291}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1388756393 stripped
 Transform:
@@ -10636,7 +10711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1399248442}
   m_Layer: 0
-  m_Name: Left Point (woman)
+  m_Name: Left Point (woman 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11272,7 +11347,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1775790501429231184, guid: 75e84fbdb66ab5647a06b786c6662307, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Bucket 01
+      value: Bucket (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1775790501429231186, guid: 75e84fbdb66ab5647a06b786c6662307, type: 3}
       propertyPath: m_LocalScale.x
@@ -11859,11 +11934,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1520219273}
     m_Modifications:
     - target: {fileID: 5684634973922906080, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Chair (1)
+      value: Chair (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalScale.x
@@ -11875,11 +11950,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 136.1
+      value: 132.38983
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.17
+      value: -3.2748535
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11891,7 +11966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalRotation.y
@@ -11899,7 +11974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11920,6 +11995,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
+--- !u!4 &1501471241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
+  m_PrefabInstance: {fileID: 1501471240}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1507635779
 GameObject:
   m_ObjectHideFlags: 0
@@ -11998,11 +12078,11 @@ Transform:
   m_GameObject: {fileID: 1507635779}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 207.25, y: -1.2, z: 20}
+  m_LocalPosition: {x: -25.659134, y: -15.641043, z: 20.287086}
   m_LocalScale: {x: 0.19999999, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 380345961}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &1520219272
 GameObject:
@@ -12064,6 +12144,8 @@ Transform:
   - {fileID: 1297370467}
   - {fileID: 2063252212}
   - {fileID: 1904219154}
+  - {fileID: 1842045708}
+  - {fileID: 1501471241}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1527850043
@@ -12078,7 +12160,7 @@ GameObject:
   - component: {fileID: 1527850046}
   - component: {fileID: 1527850045}
   m_Layer: 0
-  m_Name: DetectionZone(2)
+  m_Name: DetectionZone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12205,12 +12287,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547554766}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 136.83223, y: -2.1341362, z: -0.018058173}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35.06987, y: -4.5098047, z: 0.11841167}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1040109583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1553304641
 GameObject:
@@ -12225,7 +12307,7 @@ GameObject:
   - component: {fileID: 1553304644}
   - component: {fileID: 1553304643}
   m_Layer: 0
-  m_Name: Wall (1)
+  m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12427,7 +12509,7 @@ GameObject:
   - component: {fileID: 1587133223}
   - component: {fileID: 1587133222}
   m_Layer: 0
-  m_Name: woman
+  m_Name: woman 1
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12704,7 +12786,7 @@ GameObject:
   - component: {fileID: 1614750892}
   - component: {fileID: 1614750891}
   m_Layer: 0
-  m_Name: DetectionZone(3)
+  m_Name: DetectionZone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13602,7 +13684,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5303919849738125433, guid: 4d8ad400922c4a343911784077c26568, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Cup (2)
+      value: Cup (3)
       objectReference: {fileID: 0}
     - target: {fileID: 5303919849738125433, guid: 4d8ad400922c4a343911784077c26568, type: 3}
       propertyPath: m_Layer
@@ -13692,15 +13774,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696905225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 138.5555, y: -0.07815687, z: 4.819519}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 57.742485, y: -1.6984276, z: 4.8629265}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2084736545}
   - {fileID: 407526715}
   - {fileID: 180017523}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1375715903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1702262007
 GameObject:
@@ -13779,12 +13861,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702262007}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 132.74, y: 1.73, z: 20}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -100.16913, y: -12.711042, z: 20.287086}
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 380345961}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1702814769 stripped
 Transform:
@@ -13803,7 +13885,7 @@ GameObject:
   - component: {fileID: 1720113407}
   - component: {fileID: 1720113406}
   m_Layer: 0
-  m_Name: DetectionZone(1)
+  m_Name: DetectionZone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14051,7 +14133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8746762391861760556, guid: 78c0f168d9274124eaeedea139301a44, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Pot 01 (1)
+      value: Pot (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14248,11 +14330,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1520219273}
     m_Modifications:
     - target: {fileID: 5684634973922906080, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Chair
+      value: Chair (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalScale.x
@@ -14264,11 +14346,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 127.92
+      value: 124.209816
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.17
+      value: -3.2748535
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14280,11 +14362,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
       propertyPath: m_LocalRotation.z
@@ -14309,6 +14391,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
+--- !u!4 &1842045708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5684634973922906081, guid: bb67ae3035abce24aa87122c96acac22, type: 3}
+  m_PrefabInstance: {fileID: 1842045707}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1846411645
 GameObject:
   m_ObjectHideFlags: 0
@@ -14785,7 +14872,7 @@ GameObject:
   - component: {fileID: 1915179588}
   - component: {fileID: 1915179587}
   m_Layer: 0
-  m_Name: Wall
+  m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15532,7 +15619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976901524}
   m_Layer: 0
-  m_Name: Right Point (woman)
+  m_Name: Right Point (woman 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15563,7 +15650,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5303919849738125433, guid: 4d8ad400922c4a343911784077c26568, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Cup (1)
+      value: Cup (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5303919849738125433, guid: 4d8ad400922c4a343911784077c26568, type: 3}
       propertyPath: m_Layer
@@ -15773,17 +15860,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010256561}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 80.81301, y: 1.6202707, z: -0.043407217}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 976375171}
-  - {fileID: 1388756393}
   - {fileID: 734947447}
-  - {fileID: 467065951}
+  - {fileID: 1388756393}
+  - {fileID: 976375171}
   - {fileID: 741615540}
-  m_Father: {fileID: 0}
+  - {fileID: 467065951}
+  m_Father: {fileID: 1375715903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2017049306
 GameObject:
@@ -15879,7 +15966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2024524086}
   m_Layer: 0
-  m_Name: ' Left Point (oldman)'
+  m_Name: Left Point (oldman)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16338,7 +16425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2065859043}
   m_Layer: 0
-  m_Name: NPC-woman (1)
+  m_Name: NPC-woman (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16564,7 +16651,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5303919849738125433, guid: 4d8ad400922c4a343911784077c26568, type: 3}
       propertyPath: m_Name
-      value: PF Village Props - Cup
+      value: Cup (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5303919849738125433, guid: 4d8ad400922c4a343911784077c26568, type: 3}
       propertyPath: m_Layer
@@ -17285,22 +17372,9 @@ SceneRoots:
   - {fileID: 1743173760}
   - {fileID: 531443092}
   - {fileID: 955069713}
-  - {fileID: 2010256562}
-  - {fileID: 781618145}
-  - {fileID: 428301958}
-  - {fileID: 1696905226}
-  - {fileID: 1270135510}
-  - {fileID: 976478291}
-  - {fileID: 1465604904}
   - {fileID: 1167808110}
   - {fileID: 243696251}
-  - {fileID: 147690543}
-  - {fileID: 1335298464}
-  - {fileID: 716927502}
-  - {fileID: 1547554768}
-  - {fileID: 320250068}
-  - {fileID: 1842045707}
-  - {fileID: 1501471240}
-  - {fileID: 1507635781}
-  - {fileID: 1702262009}
+  - {fileID: 1375715903}
+  - {fileID: 1465604904}
+  - {fileID: 1040109583}
   - {fileID: 1660233915}
