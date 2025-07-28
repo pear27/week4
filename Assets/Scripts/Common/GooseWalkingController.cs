@@ -16,6 +16,7 @@ public class GooseWalkingController : MonoBehaviour
     private bool isGrounded;
     private bool isHiding;
     private bool isOnPlatform = false;
+    public bool isTied = false;
 
     private void Start()
     {
@@ -28,6 +29,14 @@ public class GooseWalkingController : MonoBehaviour
 
     private void Update()
     {
+        if (isTied)
+        {
+            // 묶여있을 때는 이동 불가
+            rb.velocity = Vector2.zero;
+            animator.SetBool("isWalking", false);
+            return;
+        }
+
         // 땅에 있는지 체크
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 

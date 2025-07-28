@@ -15,14 +15,18 @@ public class GooseTiedController : MonoBehaviour
     public float requiredMash = 100f; // 풀기 위해 필요한 게이지 양
     public float currentMash = 0f;
 
+    public GooseWalkingController gooseWalkingController;
+
     private bool isTied = true;
 
     void Start()
     {
+        gooseWalkingController.isTied = true; // GooseWalkingController에서 묶인 상태 설정
+
         if (animator != null)
             animator.enabled = false; // Animator 비활성화
 
-        if (spriteRenderer != null)            
+        if (spriteRenderer != null)
             spriteRenderer.sprite = tiedSprite; // 처음 상태 1번 이미지
 
         StartCoroutine(ChangeToPeckReady());
@@ -45,11 +49,17 @@ public class GooseTiedController : MonoBehaviour
             StartCoroutine(PeckAnimation());
         }
 
+        // 방향키 입력 → 흔들림
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            StartCoroutine(WiggleAnimation());
+        }
+
         currentMash -= mashDecayRate * Time.deltaTime; // 게이지 감소
         currentMash = Mathf.Clamp(currentMash, 0, requiredMash); // 게이지 범위 제한
-        
+
         if (currentMash >= requiredMash)
-            ReleaseGoose();   
+            ReleaseGoose();
     }
 
     IEnumerator PeckAnimation()
@@ -59,12 +69,31 @@ public class GooseTiedController : MonoBehaviour
         spriteRenderer.sprite = defaultPeckSprite;
     }
 
+    IEnumerator WiggleAnimation()
+    {
+        Vector3 originalPos = transform.position;
+        float wiggleAmount = 0.05f; // 흔들림 거리
+        float duration = 0.1f;     // 각 이동의 지속 시간
+
+        // 왼쪽
+        transform.position = originalPos + new Vector3(-wiggleAmount, 0, 0);
+        yield return new WaitForSeconds(duration);
+
+        // 오른쪽
+        transform.position = originalPos + new Vector3(wiggleAmount, 0, 0);
+        yield return new WaitForSeconds(duration);
+
+        // 원위치
+        transform.position = originalPos;
+    }
+
     void ReleaseGoose()
     {
         isTied = false;
+        gooseWalkingController.isTied = false; // GooseWalkingController에서 묶인 상태 해제
         if (animator != null)
             animator.enabled = true; // Animator 활성화
-       
+
         Debug.Log("Goose is free!");
     }
 }
