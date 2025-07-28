@@ -20,13 +20,14 @@ public class FallingObject : MonoBehaviour
                 }
                 else
                 {
-                    // 플레이어에게 피해를 입히는 로직
-                    // PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
-                    //if (playerHealth != null)
-                    //{
-                        // playerHealth.TakeDamage(damageAmount);
-                        Debug.Log("Player is not on a platform, damage taken.");
-                    //}
+                    // PlayerHealth 컴포넌트 가져오기
+                    PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+
+                    if (playerHealth != null)
+                    {
+                        playerHealth.TakeDamage(damageAmount);
+                        Debug.Log("Player took damage: " + damageAmount);
+                    }
                 }
             }
         }

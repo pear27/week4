@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "D:\\Projects\\madcamp\\Week4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|d:\\projects\\madcamp\\week4\\assets\\scripts\\objectshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|d:\\projects\\madcamp\\week4\\assets\\scripts\\stage1\\detectionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stage1\\detectionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\DropItemTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DropItemTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\DropItemTriggerGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DropItemTriggerGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\FallingObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FallingObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\NPCPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NPCPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\ObjectShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ObjectShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\MovingObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MovingObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\GooseWalkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GooseWalkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\GooseWalkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GooseWalkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\FallingObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\FallingObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\DropItemTriggerGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\DropItemTriggerGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\DropItemTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\DropItemTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\GooseWalkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\GooseWalkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\Stage1\\NPCPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Stage1\\NPCPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,72 +54,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ObjectShake.cs",
-              "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\ObjectShake.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectShake.cs",
-              "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\ObjectShake.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObjectShake.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "NPCPatrol.cs",
+              "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\Stage1\\NPCPatrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Stage1\\NPCPatrol.cs",
+              "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\Stage1\\NPCPatrol.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Stage1\\NPCPatrol.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T14:40:47.472Z",
+              "WhenOpened": "2025-07-27T16:44:06.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetectionZone.cs",
+              "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\Stage1\\DetectionZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Stage1\\DetectionZone.cs",
+              "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\Stage1\\DetectionZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Stage1\\DetectionZone.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:41:20.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FallingObject.cs",
               "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\FallingObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FallingObject.cs",
               "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\FallingObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\FallingObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T11:39:17.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DropItemTriggerGenerator.cs",
               "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\DropItemTriggerGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DropItemTriggerGenerator.cs",
               "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\DropItemTriggerGenerator.cs",
               "RelativeToolTip": "Assets\\Scripts\\DropItemTriggerGenerator.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T07:35:33.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "DropItemTrigger.cs",
               "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\DropItemTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DropItemTrigger.cs",
               "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\DropItemTrigger.cs",
               "RelativeToolTip": "Assets\\Scripts\\DropItemTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T06:32:44.967Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NPCPatrol.cs",
+              "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\NPCPatrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCPatrol.cs",
+              "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\NPCPatrol.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCPatrol.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T11:49:19.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovingObject.cs",
+              "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\MovingObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovingObject.cs",
+              "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\MovingObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovingObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T09:27:47.459Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ObjectShake.cs",
+              "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\ObjectShake.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectShake.cs",
+              "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\ObjectShake.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectShake.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T14:40:47.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "GooseWalkingController.cs",
               "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\GooseWalkingController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GooseWalkingController.cs",
               "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\GooseWalkingController.cs",
               "RelativeToolTip": "Assets\\Scripts\\GooseWalkingController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T11:00:50.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
@@ -115,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "GooseWalkingController.cs",
               "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\GooseWalkingController.cs",
               "RelativeDocumentMoniker": "Assets\\GooseWalkingController.cs",

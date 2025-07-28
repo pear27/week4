@@ -16,9 +16,6 @@ public class DetectionZone : MonoBehaviour
     public float shakeDuration = 1f; // 흔들림 지속 시간
     public NPCPatrol npcPatrolScript; // NPC 이동 스크립트 참조
 
-    public CanvasGroup fadeCanvas; // 페이드 아웃용 CanvasGroup
-    public float fadeDuration = 1f; // 페이드 지속 시간
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -59,7 +56,7 @@ public class DetectionZone : MonoBehaviour
 
         if (npcPatrolScript != null)
         {
-            npcPatrolScript.enabled = false; // NPC 이동 스크립트 비활성화
+            npcPatrolScript.StopAllCoroutines(); // NPC 스크립트에서 돌고 있는 Coroutine 정지
         }
 
         Vector3 originalPlayerPos = player.position;
@@ -81,20 +78,6 @@ public class DetectionZone : MonoBehaviour
 
         yield return new WaitForSeconds(1f); // 흔들림 후 잠시 대기
 
-        yield return StartCoroutine(FadeOut()); // 페이드 아웃
-        SceneManager.LoadScene("Dead1"); // 게임 오버 화면으로 전환
-    }
-
-    private IEnumerator FadeOut()
-    {
-        float elapsed = 0f;
-        fadeCanvas.alpha = 0f;
-        while (elapsed < fadeDuration)
-        {
-            elapsed += Time.deltaTime;
-            fadeCanvas.alpha = Mathf.Lerp(0f, 1f, elapsed / fadeDuration);
-            yield return null;
-        }
-        fadeCanvas.alpha = 1f; // 완전 불투명
+        FadeManager.Instance.FadeOutAndLoad("Dead1");
     }
 }

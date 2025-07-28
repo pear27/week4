@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dead1.unity
     guid: a747c0ef91e78374f98ee022c28f4d74
+  - enabled: 1
+    path: Assets/Scenes/Farm.unity
+    guid: 9808beae8f4aadd46b93b9698e8342fd
   m_configObjects: {}
