@@ -17,7 +17,7 @@ public class GooseRescueManager : MonoBehaviour
     public Camera mainCamera;
     public Transform player;
     public GooseWalkingController gooseController;
-    public FeedShooter feedShooter;
+    public FeedShooter[] feedShooters;
 
     private void Awake()
     {
@@ -37,8 +37,7 @@ public class GooseRescueManager : MonoBehaviour
             npcSpawned = true;
             Debug.Log("Triggering NPC spawn event!");
 
-            if (npcSpawned)
-                StartCoroutine(SpawnNPCSequence());
+            StartCoroutine(SpawnNPCSequence());
         }
     }
 
@@ -47,9 +46,10 @@ public class GooseRescueManager : MonoBehaviour
         if (gooseController != null)
             gooseController.isFrozen = true; // 거위 이동 멈춤
 
-        if(feedShooter != null)
-            feedShooter.isActive = false; // 먹이 발사기 비활성화
-
+        if (feedShooters != null && feedShooters.Length > 0)
+            foreach (FeedShooter shooter in feedShooters)
+                shooter.enabled = false;
+        
         GameObject npc = Instantiate(npcPrefab, npcSpawnPoint.position, Quaternion.identity);
         Animator npcAnimator = npc.GetComponent<Animator>();
 
@@ -65,16 +65,30 @@ public class GooseRescueManager : MonoBehaviour
         float speed = 2f;
         SpriteRenderer npcSprite = npc.GetComponent<SpriteRenderer>();
 
-        while (Vector2.Distance(npc.transform.position, npcTargetPoint.position) > 0.1f)
+        while (Vector2.Distance(npc.transform.position, npcTargetPoint.position) > 1f)
         {
-            Vector3 dir = (npcTargetPoint.position - npc.transform.position).normalized;
+            Vector3 targetPos = new Vector3(
+                npcTargetPoint.position.x,
+                npcTargetPoint.position.y,
+                npc.transform.position.z // Z값 고정
+            );
+
+            Vector3 dir = (targetPos - npc.transform.position).normalized;
 
             if (npcSprite != null)
-                npcSprite.flipX = dir.x < 0; // NPC가 이동 방향에 따라 좌우 반전
+                npcSprite.flipX = true; // 그냥 왼쪽 고정
 
             npc.transform.position += dir * speed * Time.deltaTime;
-            yield return null; // 다음 프레임까지 대기
+
+            yield return null;
         }
+
+        // 마지막에 위치 고정
+        npc.transform.position = new Vector3(
+            npcTargetPoint.position.x,
+            npcTargetPoint.position.y,
+            npc.transform.position.z
+        );
 
         if (npcAnimator != null)
             npcAnimator.SetBool("isWalking", false); // NPC 걷기 애니메이션 멈춤
@@ -89,7 +103,8 @@ public class GooseRescueManager : MonoBehaviour
         if (gooseController != null)
             gooseController.isFrozen = false; // 거위 이동 재개
 
-        if (feedShooter != null)
-            feedShooter.isActive = true; // 먹이 발사기 활성화
+        if (feedShooters != null && feedShooters.Length > 0)
+            foreach (FeedShooter shooter in feedShooters)
+                shooter.enabled = true;
     }
 }
