@@ -10,8 +10,12 @@ public class FeedShooter : MonoBehaviour
     public float shootInterval = 0.5f;   // 발사 간격
     private float timer = 0f;
 
+    public bool isActive = true; // 활성화 여부
+
     private void Update()
     {
+        if (!isActive) return;
+
         timer += Time.deltaTime;
         if (timer >= shootInterval)
         {

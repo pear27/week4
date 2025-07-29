@@ -65,6 +65,7 @@ public class CagedGoose : MonoBehaviour
 
         if (hintUI != null) hintUI.SetActive(false);
 
+        GooseRescueManager.Instance.AddRescuedCage(); // 구조된 케이지 수 증가
         Debug.Log("Goose rescued!");
     }
 
