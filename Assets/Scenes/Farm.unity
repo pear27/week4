@@ -1260,6 +1260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHearts: 3
   uiHeartManager: {fileID: 258541491}
+  spriteRenderer: {fileID: 659565235}
 --- !u!114 &659565231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3380,7 +3381,7 @@ Transform:
   m_GameObject: {fileID: 2023119853}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.34, y: 3, z: 0}
+  m_LocalPosition: {x: 12, y: 3, z: 0}
   m_LocalScale: {x: 0.23589002, y: 0.22518, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
