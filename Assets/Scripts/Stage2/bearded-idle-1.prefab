@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3095721032677897296}
   m_Layer: 0
   m_Name: bearded-idle-1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,5 +194,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  speed: 2
-  maxHealth: 10
+  speed: 5
+  maxHealth: 30

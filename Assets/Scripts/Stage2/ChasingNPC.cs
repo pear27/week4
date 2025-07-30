@@ -5,19 +5,22 @@ using System.Collections;
 public class ChasingNPC : MonoBehaviour
 {
     public Transform player;
-    public float speed = 2f;
-    public int maxHealth = 10;
+    public float speed = 5f;
+    public int maxHealth = 40;
     private int currentHealth;
 
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private Color originalColor; // 원래 스프라이트 색상
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+            originalColor = spriteRenderer.color; // 원래 색상 저장   
         currentHealth = maxHealth;
 
         GameObject playerObj = GameObject.FindWithTag("Player");
@@ -67,11 +70,21 @@ public class ChasingNPC : MonoBehaviour
     {
         currentHealth -= amount;
         Debug.Log($"NPC took damage. Remaining HP: {currentHealth}");
+        StartCoroutine(DamageFlash());
 
         if (currentHealth <= 0)
         {
             Die();
         }
+    }
+
+    private IEnumerator DamageFlash()
+    {
+        if (spriteRenderer == null) yield break;
+
+        spriteRenderer.color = Color.red; // 빨간색으로 변경
+        yield return new WaitForSeconds(0.1f); // 0.1초 대기
+        spriteRenderer.color = originalColor; // 원래 색상으로 복원
     }
 
     void Die()

@@ -1,10 +1,13 @@
 using System.Collections;
 using UnityEngine;
+using TMPro;
 
 public class GooseRescueManager : MonoBehaviour
 {
     public static GooseRescueManager Instance;
 
+    public TMP_Text cageCounterText;
+    private int totalCageCount = 7;
     private int rescuedCageCount = 0;
     public int requiredToTriggerEvent = 5;
 
@@ -32,6 +35,9 @@ public class GooseRescueManager : MonoBehaviour
         rescuedCageCount++;
         Debug.Log($"Rescued cages: {rescuedCageCount}");
 
+        if (cageCounterText != null)
+            cageCounterText.text = $"{rescuedCageCount}/{totalCageCount}";
+
         if (!npcSpawned && rescuedCageCount >= requiredToTriggerEvent)
         {
             npcSpawned = true;
@@ -58,34 +64,6 @@ public class GooseRescueManager : MonoBehaviour
             camFollow.SetTarget(npc.transform); // 카메라가 NPC를 따라가도록 설정
 
         yield return new WaitForSeconds(1f); // 카메라 이동 연출 여유
-
-        if (npcAnimator != null)
-            npcAnimator.SetBool("isWalking", true); // NPC 걷기 애니메이션 시작
-
-        float speed = 2f;
-        SpriteRenderer npcSprite = npc.GetComponent<SpriteRenderer>();
-
-        while (Vector2.Distance(npc.transform.position, npcTargetPoint.position) > 1f)
-        {
-            Vector3 targetPos = new Vector3(
-                npcTargetPoint.position.x,
-                npcTargetPoint.position.y,
-                npc.transform.position.z // Z값 고정
-            );
-
-            Vector3 dir = (targetPos - npc.transform.position).normalized;
-
-            npc.transform.position += dir * speed * Time.deltaTime;
-
-            yield return null;
-        }
-
-        // 마지막에 위치 고정
-        npc.transform.position = new Vector3(
-            npcTargetPoint.position.x,
-            npcTargetPoint.position.y,
-            npc.transform.position.z
-        );
 
         if (npcAnimator != null)
             npcAnimator.SetBool("isWalking", false); // NPC 걷기 애니메이션 멈춤
