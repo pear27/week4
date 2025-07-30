@@ -836,6 +836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1001 &58401289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1101,6 +1102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &96184165 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7012872107734090152, guid: 5dad1464d7a3246408607532834aec13, type: 3}
@@ -1209,6 +1211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+  hitSound: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!4 &99701349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6430119279636018803, guid: 6a9ccf5128b7b1349a5a89b136f037a4, type: 3}
@@ -2765,6 +2768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &364661813
 GameObject:
   m_ObjectHideFlags: 0
@@ -3357,6 +3361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1001 &501146016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3857,6 +3862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+  hitSound: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!60 &600728742
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4738,6 +4744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &697971085
 GameObject:
   m_ObjectHideFlags: 0
@@ -5418,6 +5425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &748594549
 GameObject:
   m_ObjectHideFlags: 0
@@ -5791,6 +5799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+  hitSound: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!60 &808240758
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6312,6 +6321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!4 &839163366 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5343106954107881201, guid: b78702531cc991540bea14f3518027c2, type: 3}
@@ -6515,6 +6525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!4 &866552057 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6430119279636018803, guid: 6a9ccf5128b7b1349a5a89b136f037a4, type: 3}
@@ -7014,6 +7025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &976478290
 GameObject:
   m_ObjectHideFlags: 0
@@ -7141,7 +7153,7 @@ GameObject:
   - component: {fileID: 1009183048}
   m_Layer: 6
   m_Name: GroundCollider
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7472,6 +7484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+  hitSound: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!4 &1050650894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6430119279636018803, guid: 6a9ccf5128b7b1349a5a89b136f037a4, type: 3}
@@ -7785,6 +7798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+  hitSound: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &1073430641
 GameObject:
   m_ObjectHideFlags: 0
@@ -8070,6 +8084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!4 &1078801611 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5340538105306347130, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
@@ -8982,6 +8997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1001 &1235406546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9715,6 +9731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &1301011567
 GameObject:
   m_ObjectHideFlags: 0
@@ -10091,6 +10108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &1310430413
 GameObject:
   m_ObjectHideFlags: 0
@@ -10308,7 +10326,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 83abcc8a9e6c3ca41a3197a0e74ebb39, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b6f93824ce2b131419dd40de89fda44b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10883,6 +10901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+  hitSound: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1001 &1438446742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11213,6 +11232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &1454242584
 GameObject:
   m_ObjectHideFlags: 0
@@ -11905,6 +11925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &1495816267
 GameObject:
   m_ObjectHideFlags: 0
@@ -12837,6 +12858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1001 &1606897262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13260,6 +13282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &1638458656
 GameObject:
   m_ObjectHideFlags: 0
@@ -13504,6 +13527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &1660233912
 GameObject:
   m_ObjectHideFlags: 0
@@ -14421,6 +14445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &1840028030
 GameObject:
   m_ObjectHideFlags: 0
@@ -14786,6 +14811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &1882408174 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5303919849738125433, guid: 4d8ad400922c4a343911784077c26568, type: 3}
@@ -14804,6 +14830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &1883529588
 GameObject:
   m_ObjectHideFlags: 0
@@ -15355,6 +15382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1001 &1919019826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16444,6 +16472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &2063252211
 GameObject:
   m_ObjectHideFlags: 0
@@ -16945,6 +16974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+  hitGroundClip: {fileID: 8300000, guid: b52a3fd21234054448821bb4cb086a31, type: 3}
 --- !u!1 &2116019620
 GameObject:
   m_ObjectHideFlags: 0
@@ -17258,7 +17288,7 @@ Transform:
   m_GameObject: {fileID: 2132184023}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.3, y: -1.5, z: -10}
+  m_LocalPosition: {x: 79.62, y: -2.21, z: -10}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17315,6 +17345,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   isTied: 0
+  isFrozen: 0
 --- !u!60 &2132184030
 PolygonCollider2D:
   m_ObjectHideFlags: 0
