@@ -47,6 +47,12 @@ public class GooseRescueManager : MonoBehaviour
         }
     }
 
+    public bool AllGeeseRescued()
+    {
+        return rescuedCageCount >= totalCageCount;
+    }
+
+
     private IEnumerator SpawnNPCSequence()
     {
         if (gooseController != null)
