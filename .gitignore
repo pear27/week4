@@ -14,8 +14,8 @@ UserSettings/
 *.bak
 *.backup
 *.backup.json
-DocumentLayout.json
-DocumentLayout.backup.json
+**/DocumentLayout.json
+**/DocumentLayout.backup.json
 
 # Visual Studio 관련
 .vscode/

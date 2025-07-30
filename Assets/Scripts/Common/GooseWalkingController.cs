@@ -17,6 +17,7 @@ public class GooseWalkingController : MonoBehaviour
     private bool isHiding;
     private bool isOnPlatform = false;
     public bool isTied = false;
+    public bool isFrozen = false;
 
     private void Start()
     {
@@ -29,7 +30,7 @@ public class GooseWalkingController : MonoBehaviour
 
     private void Update()
     {
-        if (isTied)
+        if (isTied || isFrozen)
         {
             // 묶여있을 때는 이동 불가
             rb.velocity = Vector2.zero;

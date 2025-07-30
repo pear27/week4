@@ -10,7 +10,6 @@ public class CameraFollow : MonoBehaviour
     public BoxCollider2D mapBounds; // 맵의 경계 박스
 
     private float minX, maxX;
-
     private float cameraHalfWidth;
 
     void Start()
@@ -30,12 +29,15 @@ public class CameraFollow : MonoBehaviour
         if (target == null) return;
 
         float targetX = target.position.x + offset.x;
-
         targetX = Mathf.Clamp(targetX, minX, maxX);
 
         Vector3 desiredPosition = new Vector3(targetX, fixedY, transform.position.z);
-        
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.position = smoothedPosition;
+    }
+
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
     }
 }
