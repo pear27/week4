@@ -1,18 +1,28 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.UI;
+using TMPro;
 
 public class ChasingNPC : MonoBehaviour
 {
     public Transform player;
     public float speed = 5f;
-    public int maxHealth = 40;
+    public int maxHealth = 20;
     private int currentHealth;
 
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private Color originalColor; // 원래 스프라이트 색상
+
+    private TMP_Text hpText;
+
+    public Sprite deadSprite; // 쓰러진 상태 스프라이트
+    // public GameObject keyPrefab; // 얻을 열쇠 프리팹
+
+    private bool isDead = false;
+    private bool canGiveKey = false;
 
     void Start()
     {
@@ -22,21 +32,22 @@ public class ChasingNPC : MonoBehaviour
         if (spriteRenderer != null)
             originalColor = spriteRenderer.color; // 원래 색상 저장   
         currentHealth = maxHealth;
+        
+        hpText = GetComponentInChildren<TMP_Text>();
+        UpdateHealthUI();
 
         GameObject playerObj = GameObject.FindWithTag("Player");
 
         if (playerObj != null)
-        {
             player = playerObj.transform;
-        }
         else
-        {
             Debug.LogWarning("Player 오브젝트를 찾을 수 없습니다. 태그 확인 필요.");
-        }
     }
 
     void Update()
     {
+        if (isDead) return; // NPC가 죽은 경우 이동 및 애니메이션 중지
+
         if (player == null) return;
 
         // 이동 방향 계산
@@ -56,6 +67,8 @@ public class ChasingNPC : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (isDead) return; // NPC가 죽은 경우 충돌 처리 중지
+
         // 1. 플레이어와 접촉 → 게임 오버
         if (collision.gameObject.CompareTag("Player"))
             FadeManager.Instance.FadeOutAndLoad("Dead2");
@@ -68,14 +81,23 @@ public class ChasingNPC : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
+        if (isDead) return; // 이미 죽은 경우 무시
+
         currentHealth -= amount;
         Debug.Log($"NPC took damage. Remaining HP: {currentHealth}");
+
+        UpdateHealthUI();
+        
         StartCoroutine(DamageFlash());
 
         if (currentHealth <= 0)
-        {
             Die();
-        }
+    }
+
+    private void UpdateHealthUI()
+    {
+        if (hpText != null)
+            hpText.text = $"{currentHealth}/{maxHealth}";
     }
 
     private IEnumerator DamageFlash()
@@ -89,8 +111,37 @@ public class ChasingNPC : MonoBehaviour
 
     void Die()
     {
-        // 애니메이션 추가 예정이면 여기서 트리거 가능
+        isDead = true;
         Debug.Log("NPC died");
-        Destroy(gameObject);
+        
+        animator.enabled = false; // 애니메이션 정지
+        if (deadSprite != null)
+            spriteRenderer.sprite = deadSprite; // 쓰러진 상태 스프라이트로 변경
+
+        if (hpText != null)
+        {
+            hpText.text = $"스페이스바를 눌러 열쇠 얻기";
+            hpText.gameObject.SetActive(false);
+        }
+
+        rb.velocity = Vector2.zero; // 이동 정지
+        rb.bodyType = RigidbodyType2D.Static; // 물리 엔진에서 NPC 정지
+
+        canGiveKey = true; // 열쇠를 줄 수 있는 상태로 변경
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (isDead && canGiveKey && other.CompareTag("Player"))
+        {
+            if (hpText != null)
+                hpText.gameObject.SetActive(true); // 플레이어가 NPC 근처에 있을 때 HP 텍스트 표시
+            
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                canGiveKey = false; // 열쇠를 줄 수 있는 상태 해제
+                Debug.Log("열쇠를 얻었습니다!");
+            }
+        }
     }
 }
