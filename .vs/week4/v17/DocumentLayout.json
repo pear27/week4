@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\madcamp\\Week4\\",
+  "WorkspaceRootPath": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\HappyEnding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,44 +23,38 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AudioFadeIn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\DialogueSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\DropItemTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\DropItemTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DropItemTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\NPCPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\Dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\ObjectShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\NPCPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NPCPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\MovingObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\ObjectShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ObjectShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\Dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\MovingObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MovingObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\DialogueSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\GooseWalkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GooseWalkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\DialogueSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\GooseWalkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GooseWalkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\Dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\ObjectShake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\Stage1\\NPCPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CFCB384-BFE0-B49B-3FCF-A7A4817B976F}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Stage1\\NPCPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\NPCPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,21 +64,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dead.cs",
-              "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\Dead.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dead.cs",
-              "ToolTip": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\Dead.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dead.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T06:37:06.647Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -93,9 +74,35 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\HappyEnding.cs",
               "ToolTip": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\HappyEnding.cs",
               "RelativeToolTip": "Assets\\Scripts\\HappyEnding.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAOsAAAAAAAAAAADwvxABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T04:51:36.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScaryEffect.cs",
+              "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\ScaryEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScaryEffect.cs",
+              "ToolTip": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\ScaryEffect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScaryEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:11:38.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T07:35:33.198Z",
               "EditorCaption": ""
             },
             {
@@ -108,25 +115,24 @@
               "RelativeToolTip": "Assets\\Scripts\\AudioFadeIn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T04:36:44.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T04:36:44.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ScaryEffect.cs",
-              "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\ScaryEffect.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScaryEffect.cs",
-              "ToolTip": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\ScaryEffect.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScaryEffect.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAmwHkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Dead.cs",
+              "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\Dead.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dead.cs",
+              "ToolTip": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\Dead.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dead.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T14:11:38.463Z",
+              "WhenOpened": "2025-07-28T06:37:06.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BackgroundBlink.cs",
               "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\BackgroundBlink.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundBlink.cs",
@@ -138,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "DialogueTrigger.cs",
               "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\DialogueTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueTrigger.cs",
@@ -150,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Dialogue.cs",
               "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\Dialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue.cs",
@@ -162,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "DialogueSystem.cs",
               "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\DialogueSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueSystem.cs",
@@ -174,19 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T07:35:33.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "GooseWalkingController.cs",
               "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\GooseWalkingController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GooseWalkingController.cs",
@@ -198,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
@@ -210,51 +204,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ObjectShake.cs",
-              "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\ObjectShake.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectShake.cs",
-              "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\ObjectShake.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObjectShake.cs",
+              "DocumentIndex": 11,
+              "Title": "DialogueSystem.cs",
+              "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\DialogueSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueSystem.cs",
+              "ToolTip": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\DialogueSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueSystem.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T14:40:47.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GooseWalkingController.cs",
-              "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\GooseWalkingController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GooseWalkingController.cs",
-              "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\GooseWalkingController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GooseWalkingController.cs",
+              "DocumentIndex": 12,
+              "Title": "Dialogue.cs",
+              "DocumentMoniker": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\Dialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue.cs",
+              "ToolTip": "C:\\Users\\juyeo\\OneDrive\\\uBB38\uC11C\\GitHub\\week4\\Assets\\Scripts\\Dialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAowCQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T11:00:50.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\CameraFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
               "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\Scripts\\CameraFollow.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T08:22:39.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "GooseWalkingController.cs",
               "DocumentMoniker": "D:\\Projects\\madcamp\\Week4\\Assets\\GooseWalkingController.cs",
-              "RelativeDocumentMoniker": "Assets\\GooseWalkingController.cs",
               "ToolTip": "D:\\Projects\\madcamp\\Week4\\Assets\\GooseWalkingController.cs",
-              "RelativeToolTip": "Assets\\GooseWalkingController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T07:57:05.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T07:57:05.167Z"
             }
           ]
         }
