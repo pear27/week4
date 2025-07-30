@@ -75,9 +75,6 @@ public class GooseRescueManager : MonoBehaviour
 
             Vector3 dir = (targetPos - npc.transform.position).normalized;
 
-            if (npcSprite != null)
-                npcSprite.flipX = true; // 그냥 왼쪽 고정
-
             npc.transform.position += dir * speed * Time.deltaTime;
 
             yield return null;
