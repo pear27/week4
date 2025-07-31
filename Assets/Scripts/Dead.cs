@@ -73,7 +73,7 @@ public class Dead : MonoBehaviour
     // 다시하기 버튼
     public void OnRestartButton()
     {
-        SceneManager.LoadScene("Farm"); // stage2 대신 Farm 씬 로드
+        SceneManager.LoadScene("scene1_slaughter"); // stage2 대신 Farm 씬 로드
     }
 
     // 끝내기 버튼

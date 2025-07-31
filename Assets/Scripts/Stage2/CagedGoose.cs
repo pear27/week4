@@ -7,17 +7,21 @@ public class CagedGoose : MonoBehaviour
     public GameObject rescuedGoosePrefab; // 해방된 거위 프리팹
     public Transform rescuedSpawnPoint;   // 해방된 거위가 나올 위치
     public int requiredPresses = 7;       // 구조에 필요한 스페이스바 횟수
+    public AudioClip gooseCrySound;
 
     private int currentPresses = 0;
     private bool playerInRange = false;
     private bool isRescued = false;
     private SpriteRenderer spriteRenderer;
+    private AudioSource audioSource;
 
     public GameObject hintUI; // "스페이스바 눌러 구조하기" UI 오브젝트
 
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
         if (hintUI != null) hintUI.SetActive(false);
     }
 
@@ -46,6 +50,12 @@ public class CagedGoose : MonoBehaviour
             animator.enabled = false; // 애니메이션 멈춤
 
         spriteRenderer.sprite = emptyCageSprite; // 케이지 열기
+
+        // 울음소리 재생
+        if (gooseCrySound != null)
+        {
+            audioSource.PlayOneShot(gooseCrySound);
+        }
 
         if (rescuedGoosePrefab != null && rescuedSpawnPoint != null)
         {
